@@ -6,7 +6,7 @@ import picb from "../assets/flipkart.png";
 const Hero = () => {
   return (
     <div>
-      <div className="md:flex justify-end items-center gap-40 max-w-7xl mx-auto px-4 md:px-8 mt-12">
+      <div className="md:flex justify-end items-center gap-40 max-w-7xl mx-auto px-4 md:px-12 mt-8">
         <div className="md:w-1/2">
           <h1 className="text-5xl md:text-8xl font-bold">YOUR FEET </h1>
           <h1 className="text-5xl md:text-8xl font-bold">DESERVE</h1>
