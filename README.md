@@ -3,6 +3,8 @@
 A responsive landing page for a shoe brand built using React and Tailwind CSS.  
 This project focuses on UI design, component structure, and React fundamentals.
 
+Popup open on button click.
+
 ---
 
 ## 🚀 Tech Stack
