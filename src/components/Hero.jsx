@@ -3,7 +3,7 @@ import pic from "../assets/hero-image.png";
 import pica from "../assets/amazon.png"
 import picb from "../assets/flipkart.png";
 
-const Hero = () => {
+const Hero = ({setShowPopup}) => {
   return (
     <div>
       <div className="md:flex justify-end items-center gap-40 max-w-7xl mx-auto px-4 md:px-12 mt-8">
@@ -22,10 +22,10 @@ const Hero = () => {
             <img src={pic} alt="pic" /> 
           </div>
           <div className="flex gap-4 mt-8">
-            <button className="bg-red-700 text-white px-2 py-1 text-lg font-semibold rounded hover:bg-red-600 hover:cursor-pointer">
+            <button onClick={() => setShowPopup(true)} className="bg-red-700 text-white px-2 py-1 text-lg font-semibold rounded hover:bg-red-600 hover:cursor-pointer">
               Shop Now
             </button>
-            <button className="bg-red-700 text-white px-2 py-1 text-lg font-semibold rounded hover:bg-red-600 hover:cursor-pointer">
+            <button onClick={() => setShowPopup(true)} className="bg-red-700 text-white px-2 py-1 text-lg font-semibold rounded hover:bg-red-600 hover:cursor-pointer">
               Category
             </button>
           </div>
